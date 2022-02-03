@@ -74,28 +74,28 @@
         }
     }
     .laura {
-        background: url("/img/laura.png") center center no-repeat;
+        background: url("./img/laura.png") center center no-repeat;
         border-radius: 12px 12px 0px 0px;
         background-size: cover;
         height: 190px;
         width: 100%;
     }
     .cafe{
-        background: url("/img/rosa.png") center center no-repeat;
+        background: url("./img/rosa.png") center center no-repeat;
         border-radius: 12px 12px 0px 0px;
         background-size: cover;
         height: 190px;
         width: 100%;
     }
     .sushi {
-        background: url("/img/cotti.png") center center no-repeat;
+        background: url("./img/cotti.png") center center no-repeat;
         border-radius: 12px 12px 0px 0px;
         background-size: cover;
         height: 190px;
         width: 100%;
     }
     .veggies {
-        background: url("/img/quer.png") center center no-repeat;
+        background: url("./img/quer.png") center center no-repeat;
         border-radius: 12px 12px 0px 0px;
         background-size: cover;
         height: 190px;
@@ -158,14 +158,14 @@
         .prev-btn {
             margin-left: 28px;
             order: 1;
-            background: url("/img/btn-prev.svg") 0 0 no-repeat;
+            background: url("./img/btn-prev.svg") 0 0 no-repeat;
             width: 48px;
             height: 48px;
         }
         .next-btn {
             margin: 0px 8px;
             order: 2;
-            background: url("/img/btn-next.svg") 0 0 no-repeat;
+            background: url("./img/btn-next.svg") 0 0 no-repeat;
             width: 48px;
             height: 48px;
         }

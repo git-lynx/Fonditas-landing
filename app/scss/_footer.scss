@@ -61,19 +61,19 @@
         .facebook-logo {
             display: inline-block;
             width: 48px;
-            background: url("/img/facebook.svg") center center no-repeat;
+            background: url("./img/facebook.svg") center center no-repeat;
         }
 
         .twitter-logo {
             display: inline-block;
             width: 48px;
-            background: url("/img/twitter.svg") center center no-repeat;
+            background: url("./img/twitter.svg") center center no-repeat;
         }
 
         .insta-logo {
             display: inline-block;
             width: 48px;
-            background: url("/img/insta.svg") center center no-repeat;
+            background: url("./img/insta.svg") center center no-repeat;
         }
     }
     .footer-line {
@@ -108,17 +108,17 @@
         .visa {
             display: inline-block;
             width: 100%;
-            background: url("/img/visa.svg") 0 0 no-repeat;
+            background: url("./img/visa.svg") 0 0 no-repeat;
         }
         .mastercard {
             display: inline-block;
             width: 100%;
-            background: url("/img/master-card.svg") 0 0 no-repeat;
+            background: url("./img/master-card.svg") 0 0 no-repeat;
         }
         .apple-pay {
             display: inline-block;
             width: 100%;
-            background: url("/img/apple-pay.svg") 0 0 no-repeat;
+            background: url("./img/apple-pay.svg") 0 0 no-repeat;
         }
         .terms-container {
             @media screen and (max-width: 480px) {
@@ -247,7 +247,7 @@
                 margin-right: 0;
             }
             &:before {
-                background: url("/img/telegram.svg") 0 0 no-repeat;
+                background: url("./img/telegram.svg") 0 0 no-repeat;
                 background-size: contain;
                 content: "";
                 display: inline-block;
