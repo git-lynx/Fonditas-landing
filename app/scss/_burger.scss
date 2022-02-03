@@ -1,0 +1,114 @@
+.header {
+  .burger-container {
+    display: none;
+    padding: 0px 10px;
+    @media screen and (max-width: 991px) {
+      display: block;
+    }
+    .burger-menu {
+      display: none;
+      @media screen and (max-width: 991px) {
+        display: block;
+        position: relative;
+        height: 32px;
+        width: 42px;
+        
+        &:before {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 0;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background: black;
+        }
+
+        &:after {
+          content: "";
+          position: absolute;
+          display: block;
+          bottom: 0;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background: black;
+        }
+        .burger-inner {
+          content: "";
+          position: absolute;
+          display: block;
+          top: 50%;
+          left: 0;
+          height: 2px;
+          width: 100%;
+          background: black;
+        }
+      }
+    }
+    .burger-nav {
+      display: none;
+      position: relative;
+      @media screen and (max-width: 991px) {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        height: 400px;
+        transition: all 0.4s ease;
+        background: rgb(0, 0, 0);
+        z-index: 100;
+      }
+    }
+    .burger-nav.active {
+      display: flex;
+      flex-direction: column-reverse;
+      justify-content: flex-end;
+      align-items: flex-start;
+      left: 0;
+      font-family: DM Sans;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 24px;
+      letter-spacing: 0.16em;
+      color: white;
+      overflow: hidden;
+    }
+  }
+  .burger-btn {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    justify-content: space-between;
+    .burger-login-btn {
+      background: none;
+      border: 1px solid hsla(0, 0%, 100%, 0.296);
+      border-radius: 12px;
+      color: #fff;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 21px;
+      padding: 14px 36px;
+    }
+
+    .burger-bucket-btn-item {
+      padding-right: 32px;
+      max-width: 48px;
+      max-height: 48px;
+    }
+  }
+  .burger-list {
+    padding: 20px 0 0 20px;
+    .burger-nav-item {
+      padding-bottom: 10px;
+      .burger-link {
+        color: white;
+      }
+    }
+  }
+}

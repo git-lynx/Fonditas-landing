@@ -1,0 +1,158 @@
+.favorites {
+    .row {
+        padding: 75px 0 120px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        .category {
+            padding: 2px 16px;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 14px;
+            line-height: 32px;
+            text-transform: uppercase;
+            background: #5eae53;
+            border-radius: 8px;
+            color: white;
+        }
+    }
+    .title {
+        padding: 30px 0 50px;
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 64px;
+        text-align: center;
+        color: #333333;
+        @media screen and (max-width: 480px) {
+            font-size: 38px;
+          }
+    }
+    .cards {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        @media screen and (max-width: 991px) {
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+          }
+        @media screen and (max-width: 480px) {
+            flex-direction: column;
+          }
+        .card {
+            padding: 32px 30px 25px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 9.6%;
+            background: #f7f7f7;
+            border-radius: 12px;
+            @media screen and (max-width: 991px) {
+                width: 33.3%;
+                
+              }
+            @media screen and (max-width: 480px) {
+                margin-bottom: 8px;
+              }
+            &:hover {
+                background: #f49b3f;
+                border: 8px solid #f49b3f;
+                box-shadow: 10px 20px 40px rgba(97, 49, 0, 0.2);
+                border-radius: 12px;
+                transition: background-color 3s cubic-bezier(0.1, 0.8, 0.5, 2), color 3s 1s linear;
+                color: white;
+            }
+        }
+        .card-image {
+            display: flex;
+            justify-content: flex-end;
+            align-items: flex-start;
+            .index {
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                text-align: center;
+                color: #ffffff;
+                background: #afd3aa;
+                border-radius: 50%;
+                width: 40px;
+                height: 40px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+        }
+        .pizza-image {
+            background: url("/img/pizza-logo.svg") center center no-repeat;
+            background-size: cover;
+            width: 112px;
+            height: 112px;
+        }
+        .sushi-image {
+            background: url("/img/sushi-logo.svg") center center no-repeat;
+            background-size: cover;
+            width: 112px;
+            height: 112px;
+        }
+        .hamburger-image {
+            background: url("/img/hamburger-logo.svg") center center no-repeat;
+            background-size: cover;
+            width: 112px;
+            height: 112px;
+        }
+        .veggie-image {
+            background: url("/img/veggie-logo.svg") center center no-repeat;
+            background-size: cover;
+            width: 112px;
+            height: 112px;
+        }
+        .sopas-image {
+            background: url("/img/sopas-logo.svg") center center no-repeat;
+            background-size: cover;
+            width: 112px;
+            height: 112px;
+        }
+        .postres-image {
+            background: url("/img/postres-logo.svg") center center no-repeat;
+            background-size: cover;
+            width: 112px;
+            height: 112px;
+        }
+
+        .card-desc {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .card-title {
+                padding: 16px 0px 8px;
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 32px;
+                text-align: center;
+            }
+            .card-price {
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 24px;
+                text-align: center;
+                color: rgba(51, 51, 51, 0.50133);
+            }
+        }
+    }
+}

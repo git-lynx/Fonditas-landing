@@ -1,0 +1,173 @@
+@import "colors";
+
+.foundations {
+    padding-bottom: 160px;
+    @media screen and (max-width: 991px) {
+        padding-bottom: 30px;
+      }
+    .column {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    .category {
+        padding: 8px 16px;
+        background: #5eae53;
+        border-radius: 8px;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 32px;
+        text-align: center;
+        text-transform: uppercase;
+        color: #ffffff;
+    }
+    .title {
+        padding: 18px 0 14px;
+        font-family: Work Sans;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 56px;
+        line-height: 64px;
+        color: #333333;
+          @media screen and (max-width: 480px) {
+            font-size: 38px;
+          }
+    }
+
+    .card {
+        background: #f7f7f7;
+        border-radius: 12px;
+        width: 100%;
+    }
+    .desc {
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 16px;
+        line-height: 32px;
+        color: rgba(51, 51, 51, 0.501557);
+    }
+
+    .card-image {
+        width: 100%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: start;
+    }
+    .card-rate {
+        margin: 16px;
+        padding: 2px 8px;
+        border-radius: 8px;
+        background: $coral;
+        font-family: DM Sans;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 20px;
+        line-height: 32px;
+        color: white;
+        .star {
+            padding-right: 8px;
+            color: white;
+        }
+    }
+    .laura {
+        background: url("/img/laura.png") center center no-repeat;
+        border-radius: 12px 12px 0px 0px;
+        background-size: cover;
+        height: 190px;
+        width: 100%;
+    }
+    .cafe{
+        background: url("/img/rosa.png") center center no-repeat;
+        border-radius: 12px 12px 0px 0px;
+        background-size: cover;
+        height: 190px;
+        width: 100%;
+    }
+    .sushi {
+        background: url("/img/cotti.png") center center no-repeat;
+        border-radius: 12px 12px 0px 0px;
+        background-size: cover;
+        height: 190px;
+        width: 100%;
+    }
+    .veggies {
+        background: url("/img/quer.png") center center no-repeat;
+        border-radius: 12px 12px 0px 0px;
+        background-size: cover;
+        height: 190px;
+        width: 100%;
+    }
+    .card-info {
+        .card-title {
+            padding: 24px 0px 0px 24px;
+            font-family: Work Sans;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 24px;
+            line-height: 32px;
+            color: #333333;
+        }
+        .card-desc {
+            padding: 20px 24px 24px 24px;
+            display: flex;
+            justify-content: space-between;
+
+            .card-timer {
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                color: #333333;
+            }
+            .card-name {
+                font-family: DM Sans;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 16px;
+                line-height: 32px;
+                text-align: right;
+                color: rgba(51, 51, 51, 0.501557);
+            }
+        }
+    }
+    .slider-buttons {
+        transform: translateY(-120%);
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        @media screen and (max-width: 767px) {
+            transform: translateY(0%);
+            padding: 10px 0 10px;
+            
+          }
+        .buttons-desc {
+            order: 0;
+            font-family: DM Sans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 32px;
+            color: #333333;
+        }
+        .prev-btn {
+            margin-left: 28px;
+            order: 1;
+            background: url("/img/btn-prev.svg") 0 0 no-repeat;
+            width: 48px;
+            height: 48px;
+        }
+        .next-btn {
+            margin: 0px 8px;
+            order: 2;
+            background: url("/img/btn-next.svg") 0 0 no-repeat;
+            width: 48px;
+            height: 48px;
+        }
+    }
+}
