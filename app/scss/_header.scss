@@ -60,6 +60,10 @@
       color: white;
       font-size: 16px;
       line-height: 32px;
+      &:hover {
+        color: black;
+        transition: 1s;
+      }
     }
 
     .btn-container {
