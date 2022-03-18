@@ -136,10 +136,16 @@
             font-size: 16px;
             line-height: 32px;
             color: #ffffff;
+            transition: 1s;
+            &:hover {
+                transition: 1s;
+                color: #000;
+            }
             @media screen and (max-width: 480px) {
                 padding: 0px 0px;
             }
         }
+
         .privacy-link {
             padding-left: 22px;
             font-family: DM Sans;
@@ -148,6 +154,10 @@
             font-size: 16px;
             line-height: 32px;
             color: #ffffff;
+            &:hover {
+                transition: 1s;
+                color: #000;
+            }
             @media screen and (max-width: 480px) {
                 padding: 0px 0px 0px;
             }
@@ -207,6 +217,11 @@
         font-size: 16px;
         line-height: 32px;
         color: #ffffff;
+        transition: 1s;
+        &:hover {
+            color: black;
+            transition: 1s;
+        }
     }
     .form-block {
         display: flex;

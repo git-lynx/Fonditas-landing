@@ -60,6 +60,7 @@
       color: white;
       font-size: 16px;
       line-height: 32px;
+      transition: 1s color;
       &:hover {
         color: black;
         transition: 1s;
@@ -81,6 +82,10 @@
         font-size: 16px;
         line-height: 21px;
         background: none;
+        &:hover {
+          background: #eb8e78;
+          transition: 1s ease ;
+        }
         .scrolled {
           background: white !important;
           color: black !important;
